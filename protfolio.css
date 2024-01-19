@@ -1,0 +1,360 @@
+body{
+    background-color: #111;
+    color: #fff;
+    margin: 0rem 0rem;
+}
+*::selection{
+    background-color:rgb(243, 243, 0);
+    color: #333;
+}
+
+ 
+
+@media only screen and (min-width:400px) and (max-width:800px) {
+    body{
+        font-size: large;
+        /* background-color: #fff;  */
+
+       
+    }
+    #nav{
+        display: none;
+    }
+    #Home{
+        margin-bottom: 24rem;
+    display: flex;
+    margin-left: -0rem;
+    
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-left: 2rem; */
+    
+        }
+
+        #About{
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            margin-left: 2rem;
+            /* flex-flow: column; */
+            flex-direction: column;
+            margin-bottom: 24rem;
+        }
+        #Education{
+            display: flex;
+            /* align-items: center;
+            justify-content: center; */
+            margin-left: 2rem;
+            margin-right: 2rem;
+            
+            /* flex-flow: column; */
+            flex-direction: column;
+            margin-bottom: 24rem;
+        }
+        #Education div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: aqua; */
+            flex-direction: column;
+        }
+        #Portfolio {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 2rem;
+            margin-right: 2rem;
+
+            /* flex-flow: column; */
+            flex-direction: column;
+            margin-bottom: 24rem;
+        }
+        #Portfolio .divPortfolio{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* margin-left: 2rem; */
+            /* flex-flow: column; */
+            flex-direction: column;
+            
+        }
+        
+    
+    
+    }
+    
+    @media only screen and (max-width:400px) 
+    {
+
+        body{
+            font-size: large;
+            /* background-color: #fff;  */
+     
+        }
+
+    #nav{
+        display: none;
+    }
+    
+    #Home{
+        margin-bottom: 24rem;
+        margin-left: -0rem;
+    display: flex;
+    
+    
+    
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-left: 2rem; */
+    
+}
+
+
+        #About{
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            margin-left: 2rem;
+            /* flex-flow: column; */
+            flex-direction: column;
+            margin-bottom: 24rem;
+        }
+        #Education{
+            display: flex;
+            /* align-items: center;
+            justify-content: center; */
+            margin-left: 2rem;
+            margin-right: 2rem;
+            
+            /* flex-flow: column; */
+            flex-direction: column;
+            margin-bottom: 24rem;
+        }
+        #Education div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: aqua; */
+            flex-direction: column;
+        }
+        #Portfolio {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 2rem;
+            margin-right: 2rem;
+
+            /* flex-flow: column; */
+            flex-direction: column;
+            margin-bottom: 24rem;
+        }
+        #Portfolio .divPortfolio{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* margin-left: 2rem; */
+            /* flex-flow: column; */
+            flex-direction: column;
+            
+        }
+    
+}
+
+
+
+
+
+
+.navbar{
+    /* border: 2px solid black; */
+   position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* margin-right: 960px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #1a1a1a;
+    height: 100vh;
+
+}
+#btnnav{
+    float: right;
+    margin-top: 2px;
+}
+
+.navbar ul li  {
+    margin: 0px 0px;
+    
+    list-style: none;
+    
+    /* padding: 6px 14px; */
+}
+.navbar ul li a  {
+    text-decoration: none;
+    background-color:#333;
+    border-radius: 4rem;
+    padding: 0.6rem 5.5rem;
+    /* border: 2px solid slateblue; */
+    size: 33rem;
+color: #fff;
+font-size: 1.5rem;
+margin: .8rem 0;
+display: block;
+margin-right: 1.8rem;
+}
+
+
+.navbar ul li a:hover {
+    background-color:rgb(243, 243, 0);
+    color: rgb(202, 51, 13);
+
+}
+span{
+    color:rgb(243, 243, 0);
+    /* color: #f9ca24; */
+}
+
+.twodiv{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction:row;
+    text-align: center;
+    
+}
+.home{
+    margin-top: 8rem;
+    margin-bottom: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24rem;
+    flex-flow: column;
+    /* flex-direction: column; */
+}
+
+.home h1{
+   color: rgb(246, 246, 10);
+}
+
+
+
+
+.edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web{
+    border: 2px solid black;
+margin: 2px 19px ;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+img{
+    
+    border-radius:50%;
+    margin-top: 1.3rem;
+    height: 13rem;
+    width: 13rem;
+    margin-bottom: -1.3rem;
+}
+.web h2{
+    margin: 45px 14px;
+    color: rgb(65, 16, 225);
+}
+.web p{
+    margin: 45px 14px;
+}
+.navbar div h3{
+    font-size: 2.3rem;
+    color: rgb(246, 246, 10);
+
+    
+}
+.navbar div h2{
+    
+    margin-top: -2rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 24rem;
+    /* flex-flow: column; */
+    flex-direction: column;
+    margin-bottom: 24rem;
+}
+
+.about h1{
+    display: flex;
+    text-align: center;
+    text-align: left;
+
+}
+
+.home p {
+    text-align: left;
+}
+
+.home  h1{
+    text-align: left;
+    font-size: 3.7rem;
+}
+
+.education{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-left: 24rem;
+margin-right: 2rem;
+
+    /* flex-flow: column; */
+    flex-direction: column;
+    margin-bottom: 24rem;
+}
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24rem;
+    /* flex-flow: column; */
+    flex-direction: column;
+    margin-bottom: 24rem;
+}
+.divPortfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    flex-flow: row;
+}
+
+.divPortfoliocontent{
+    border: 2px solid black;
+    margin: 2px 1px ;    
+}
+
+.btn{
+    /* align-items: flex-end; */
+    padding: 0.3rem 2rem;
+    border-radius: .9rem;
+    background-color:rgb(243, 243, 0) ;
+    color:rgb(27, 30, 26);
+    width: 9rem;
+    margin: auto;
+
+}
+#btn{
+    margin-left: 44rem;
+}
+a{
+    color: #fff;
+    margin-left: 71rem;
+}
+
